@@ -1,0 +1,89 @@
+/* reset browser spacing */
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #bdbd09); /* gradient requirement */
+    color: #ffffff;
+    padding: 0 5%; /* 5% padding on left and right for fluid design */
+}
+
+/* header and Navigation */
+header {
+    background-color: #d12929;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #d12929;
+}
+
+/* Main content */
+main {
+    padding: 20px 0;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* video */
+video {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #db2c2c;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Articles/projects */
+article {
+    background: #db2c2c;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Form Inputs */
+input, textarea {
+    width: 100%; /* fluid input fields */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #db2c2c;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}

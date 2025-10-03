@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style_desktop.css"><!-- link to CSS file -->
+    <link rel="stylesheet" href="style_mobile.css" media="only screen and (max-width: 480px)"><!-- link to CSS file -->
+    <link rel="stylesheet" href="style_tablet.css" media="only screen and (min-width: 481px) and (max-width: 768px)"><!-- link to CSS file -->
+    <link rel="icon" type="image/JPG" href="images/favicon.JPG"><!-- icon favicon -->
+
+
+</head>
+<body>
+    <!-- Header/navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h1>Contact Me</h1>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required><br><br>
+
+                <label for="message">Comments:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+
+    <!-- footee -->
+    <footer>
+        <p>Contact me at: sukhman9044@gmail.com</p>
+        <p>&copy; 2025 Sukhmanjeet Rekhi. All rights reserved.</p>
+    </footer>
+</body>
+</html>

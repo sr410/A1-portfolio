@@ -1,0 +1,24 @@
+/* Mobile adjustments */
+body {
+    padding: 0 2%; /* less padding small screens */
+    font-size: 14px; /* slightly smaller text */
+}
+
+nav ul li {
+    display: block; /* Stack menu items vertically */
+    text-align: center;
+}
+
+nav ul li a {
+    padding: 10px; /* smaller touch friendly buttons */
+}
+
+article {
+    margin: 10px 0; /* reduce spacing between projects */
+    padding: 10px;
+}
+
+img, video {
+    width: 100%; /* make images and videos responsive */
+    height: auto;
+}
