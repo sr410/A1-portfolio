@@ -22,3 +22,9 @@ Version Control
 External Help
     • Referenced the YouTube channel BroCode for minor HTML/CSS guidance.
     • All videos, images, and other media are created by me.
+
+link for site
+    • https://sr410.github.io/A1-portfolio/index.html
+
+link for git
+    • https://github.com/sr410/A1-portfolio
