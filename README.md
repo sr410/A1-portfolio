@@ -21,7 +21,9 @@ Version Control
     • Live site: GitHub Pages
 External Help
     • Referenced the YouTube channel BroCode for minor HTML/CSS guidance.
+    • For my Contact Me form, I used the Mailmodo Email Code Guide as a reference.
     • All videos, images, and other media are created by me.
+    
 
 link for site
     • https://sr410.github.io/A1-portfolio/index.html
